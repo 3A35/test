@@ -1001,19 +1001,23 @@ padding: 10px 20px;
         }
 
 #menuid11{
- position:fixed;
-  width:450px;
-  height:300px;
-  top:500px;
-  left:350px;
- color:yellow;
- background-color:green;
-  border:none;
+position:fixed;
+display: flex;
+width:1200px;
+justify-content: center;
+top: 250px;
+font-size:70px;
+color:white;
+background-color:blue;
 font-weight:bold;
-border-radius:20px;
-// padding: 10px 20px;
-  font-size:100px;
- box-shadow: -12px 12px 0 hsl(10, 100%, 30%);
+border:none;
+padding: 10px 10px;
+transition:width 1s;
+}
+
+
+#menuid11:hover{  
+   color:yellow;
  }
 
 
@@ -1116,18 +1120,21 @@ transition:width 1s;
  }
 
 #menuid77{
- position:fixed;
-  width:450px;
-  height:300px;
-  top:1200px;
-  left:350px;
- color:white;
- background-color:brown;
-  border:none;
+position:fixed;
+top:1650px;
+display: flex;
+width:1200px;
+justify-content: center;
+font-size:70px;
+color:blue;
+background-color:orange;
 font-weight:bold;
-border-radius:20px;
-// padding: 10px 20px;
-  font-size:100px;
+border:none;
+padding: 10px 10px;
+transition:width 1s;
+}
+#menuid77:hover{  
+   color:yellow;
  }
 
 
@@ -1135,8 +1142,8 @@ border-radius:20px;
 
 .t6cl{
 position:fixed;
-top: 180px;
-left: 170px;
+top: 80px;
+left: 120px;
 color: white; 
 text-shadow: blue 0.1em 0em 0.05em,blue -0.1em 0em 0.05em;
 
@@ -1148,15 +1155,8 @@ text-shadow: blue 0.1em 0em 0.05em,blue -0.1em 0em 0.05em;
 
 .t6cl2{
 position:fixed;
-top: 180px;
+top: 80px;
 left: 450px;
-}
-
-
-.t6cl3{
-position:fixed;
-top: 60px;
-left: 350px;
 }
 
 
@@ -2845,21 +2845,17 @@ padding: 20px 20px;
 
 
 
-
 <div  id="allid" >
-<button onclick="get1()"><div id="menuid11" >產品介紹 網購</button>
+<INPUT TYPE="button" VALUE="電子材料    網 路 購 物" id="menuid11" onClick="get1()">
 <!-- <INPUT TYPE="button" VALUE="蝦皮     網  路  購  物"   id="menuid22" onClick="get2()">
 <INPUT TYPE="button" VALUE="露天     網  路  購  物 "  id="menuid33" onClick="get3()">
 <INPUT TYPE="button" VALUE="百貨用品   出清 " id="menuid44" onClick="get4()">
 <INPUT TYPE="button" VALUE="下架產品   出清 " id="menuid55" onClick="get5()"> -->
-<button onclick="get7()"><div id="menuid77" >與     我     聯     絡</button>
+<INPUT TYPE="button" VALUE="與     我     聯     絡" id="menuid77" onClick="get7()">  
 </div>
 
 
-
-
 <dvi   id="t1id"   >
-<div class="t6cl3" style="font-size:80px;color:brown;font-weight:bold;">歡 迎 光 臨 <div>
 <span class="t6cl" style="font-size:90px;color:yellow;font-weight:bold;">六捷</span>
 <span class="t6cl2" style="font-size:90px;color:blue;font-weight:bold;">3C , 電子材料</span>
 </dvi>
